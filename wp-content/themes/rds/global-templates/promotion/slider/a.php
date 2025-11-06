@@ -266,7 +266,7 @@
        }, 500);
    });
    function couponButtonClick(attr) {
-	   var CouponTitle = jQuery(attr).parent('.coupon_name').find('.coupon_title').text();
+       var CouponTitle = jQuery(attr).parent('.coupon_name').find('.coupon_title').text();
        var CouponsubTitle = jQuery(attr).parent('.coupon_name').find('.coupon_subtitle').text();
        var Couponsubheading = jQuery(attr).parent('.coupon_name').find('.coupon_sub_heading ').text();
        console.log(CouponTitle + " " + CouponsubTitle + " " + Couponsubheading)

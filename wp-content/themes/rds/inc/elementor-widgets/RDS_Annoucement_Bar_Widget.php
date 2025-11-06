@@ -335,12 +335,5 @@ public $widgetPathFull;
         $variationVal = isset($settings["variation"]) ? sanitize_text_field($settings["variation"]) : 'a';
         set_query_var('settings', $settings);
         get_template_part($this->widgetPathFull . $variationVal, null, $args);
-
-get_template_part(
-    'global-templates/nav/mobile/a',
-    null,
-    [ 'settings' => $settings ]
-);
-
     }
 }

@@ -192,7 +192,6 @@
    });
    
    function couponButtonClick(attr) {
-	   console.log('coupon modal');
        var CouponTitle = jQuery(attr).parent('.coupon_name').find('.coupon_title').text();
        var CouponsubTitle = jQuery(attr).parent('.coupon_name').find('.coupon_subtitle').text();
        var Couponsubheading = jQuery(attr).parent('.coupon_name').find('.coupon_sub_heading ').text();
